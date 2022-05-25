@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body class="destination">
+  <nav>
+    <div class="logo">
+      <img src="/starter-code/assets/shared/logo.svg" alt="logo">
+    </div>
+    <div class="nav_links closed">
+      <ul>
+        <li><a href="index.html"><span>00</span>  HOME</a></li>
+        <li><a class="active" href="destination-moon.html"><span>01</span>  DESTINATION</a></li>
+        <li><a href="crew-commander.html"><span>02</span>  CREW</a></li>
+        <li><a href="technology-vehicle.html"><span>03</span> TECHNOLOGY</a></li>
+      </ul>
+    </div>
+    <div class="hamburguer">
+      <button class="open" id='open_close_menu'><img id="menu_icon" src="/starter-code/assets/shared/icon-hamburger.svg" alt="open menu"></button>
+    </div>
+  </nav>
+
+  <div class="destination_content">
+    <div class="content_header"><h1><span>01</span> PICK YOUR DESTINATION</h1></div>
+    <div class="destination_content_container">
+      <div class="dest_image">
+        <img id="dest_img" src="/starter-code/assets/destination/image-moon.png" alt="moon">
+      </div>
+      <div class="text">
+        <ul class="destination_links">
+          <li><a class="active dest_link" id="moon" href="destination-moon.html">MOON</a></li>
+          <li><a class="dest_link" id="mars" href="destination-mars.html">MARS</a></li>
+          <li><a class="dest_link" id="europa" href="destination-europa.html">EUROPA</a></li>
+          <li><a class="dest_link" id="titan" href="destination-titan.html">TITAN</a></li>
+        </ul>
+
+        <div class="dest_description">
+          <h2>MOON</h2>
+          <P>See our planet as you’ve never seen it before. A perfect relaxing trip away to help 
+            regain perspective and come back refreshed. While you’re there, take in some history 
+            by visiting the Luna 2 and Apollo 11 landing sites.</P>
+        </div>
+
+        <div class="dest_info_container">
+          <div class="info">
+            <h3>AVG. DISTANCE</h3>
+            <p>384,400 KM</p>
+          </div>
+
+          <div class="info">
+            <h3>EST. TRAVEL TIME</h3>
+            <p>3 DAYS</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/script.js"></script>
+</body>
+</html>

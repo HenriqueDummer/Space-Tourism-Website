@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body class="crew">
+
+  <nav>
+    <div class="logo">
+      <img src="/starter-code/assets/shared/logo.svg" alt="logo">
+    </div>
+    <div class="nav_links closed">
+      <ul>
+        <li><a href="index.html"><span>00</span>  HOME</a></li>
+        <li><a href="destination-moon.html"><span>01</span>  DESTINATION</a></li>
+        <li><a class="active" href="crew-commander.html"><span>02</span>  CREW</a></li>
+        <li><a href="technology-vehicle.html"><span>03</span> TECHNOLOGY</a></li>
+      </ul>
+    </div>
+    <div class="hamburguer">
+      <button class="open" id='open_close_menu'><img id="menu_icon" src="assets/shared/icon-hamburger.svg" alt="open menu"></button>
+    </div>
+  </nav>
+
+  <div class="crew_content">
+    <div class="content_header"><h1><span>02</span>MEET YOUR CREW</h1></div>
+    <div class="crew_content_container">
+      <div class="crew_description">
+        <div><h2>COMMANDER <hr> <span>DOUGLAS HURLEY</span></h2></div>
+        <div><P>Douglas Gerald Hurley is an American engineer, former Marine Corps pilot 
+          and former NASA astronaut. He launched into space for the third time as 
+          commander of Crew Dragon Demo-2.</P></div>
+          <div class="crew_links">
+            <a href="crew-commander.html"><button class="checked"></button></a>
+            <a href="crew-specialist.html"><button></button></a>
+            <a href="crew-pilot.html"><button></button></a>
+            <a href="crew-engineer.html"><button></button></a>
+          </div>
+      </div>
+      <div class="crew_image">
+        <img src="/starter-code/assets/crew/image-douglas-hurley.png" alt="image of Douglas Hurley">
+      </div>
+    </div>
+  </div>
+
+  <script src="/script.js"></script>
+</body>
+</html>

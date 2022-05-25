@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body class="tech">
+  <nav>
+    <div class="logo">
+      <img src="/starter-code/assets/shared/logo.svg" alt="logo">
+    </div>
+    <div class="nav_links closed">
+      <ul>
+        <li><a href="index.html"><span>00</span>  HOME</a></li>
+        <li><a href="destination-moon.html"><span>01</span>  DESTINATION</a></li>
+        <li><a href="crew-commander.html"><span>02</span>  CREW</a></li>
+        <li><a class="active" href="technology-vehicle.html"><span>03</span> TECHNOLOGY</a></li>
+      </ul>
+    </div>
+    <div class="hamburguer">
+      <button class="open" id='open_close_menu'><img id="menu_icon" src="assets/shared/icon-hamburger.svg" alt="open menu"></button>
+    </div>
+  </nav>
+  
+  <div class="tech_content">
+    <div class="content_header"><h1><span>03</span> SPACE LAUNCH 101</h1></div>
+    <div class="tech_content_container">
+      <div class="tech_links">
+        <a href="technology-vehicle.html"><button class="checked">1</button></a>
+        <a href="technology-spaceport.html"><button>2</button></a>
+        <a href="technology-capsule.html"><button>3</button></a>
+      </div>
+
+      <div class="tech_description">
+        <h2>THE TERMINOLOGY... <hr> <span>LAUNCH VEHICLE</span></h2>
+        <P>A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a 
+          payload from Earth's surface to space, usually to Earth orbit or beyond. Our 
+          WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, 
+          it's quite an awe-inspiring sight on the launch pad!</P>
+      </div>
+
+      <div class="tech_image">
+        <img id="vehicle" src="/starter-code/assets/technology/image-launch-vehicle-portrait.jpg" alt="vehicle">
+      </div>
+    </div>  
+  </div>
+
+  <script src="/script.js"></script>
+</body>
+</html>

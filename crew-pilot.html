@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body class="crew">
+
+  <nav>
+    <div class="logo">
+      <img src="/starter-code/assets/shared/logo.svg" alt="logo">
+    </div>
+    <div class="nav_links closed">
+      <ul>
+        <li><a href="index.html"><span>00</span>  HOME</a></li>
+        <li><a href="destination-moon.html"><span>01</span>  DESTINATION</a></li>
+        <li><a class="active" href="crew-commander.html"><span>02</span>  CREW</a></li>
+        <li><a href="technology-vehicle.html"><span>03</span> TECHNOLOGY</a></li>
+      </ul>
+    </div>
+    <div class="hamburguer">
+      <button class="open" id='open_close_menu'><img id="menu_icon" src="assets/shared/icon-hamburger.svg" alt="open menu"></button>
+    </div>
+  </nav>
+
+  <div class="crew_content">
+    <div class="content_header"><h1><span>02</span>MEET YOUR CREW</h1></div>
+    <div class="crew_content_container">
+      <div class="crew_description">
+        <div><h2>PILOT <hr> <span>VICTOR GLOVER</span></h2></div>
+        <div><P>Pilot on the first operational flight of the SpaceX Crew Dragon to the 
+          International Space Station. Glover is a commander in the U.S. Navy where 
+          he pilots an F/A-18.He was a crew member of Expedition 64, and served as a 
+          station systems flight engineer. </P></div>
+          <div class="crew_links">
+            <a href="crew-commander.html"><button></button></a>
+            <a href="crew-specialist.html"><button></button></a>
+            <a href="crew-pilot.html"><button class="checked"></button></a>
+            <a href="crew-engineer.html"><button></button></a>
+          </div>
+      </div>
+      <div class="crew_image">
+        <img src="/starter-code/assets/crew/image-victor-glover.png" alt="image of Victor Glover">
+      </div>
+    </div>
+  </div>
+
+  <script src="/script.js"></script>
+</body>
+</html>

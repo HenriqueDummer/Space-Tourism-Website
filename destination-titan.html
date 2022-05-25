@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body class="destination">
+  <nav>
+    <div class="logo">
+      <img src="/starter-code/assets/shared/logo.svg" alt="logo">
+    </div>
+    <div class="nav_links closed">
+      <ul>
+        <li><a href="index.html"><span>00</span>  HOME</a></li>
+        <li><a class="active" href="destination-moon.html"><span>01</span>  DESTINATION</a></li>
+        <li><a href="crew-commander.html"><span>02</span>  CREW</a></li>
+        <li><a href="technology-vehicle.html"><span>03</span> TECHNOLOGY</a></li>
+      </ul>
+    </div>
+    <div class="hamburguer">
+      <button class="open" id='open_close_menu'><img id="menu_icon" src="assets/shared/icon-hamburger.svg" alt="open menu"></button>
+    </div>
+  </nav>
+
+  <div class="destination_content">
+    <div class="content_header"><h1><span>01</span> PICK YOUR DESTINATION</h1></div>
+    <div class="destination_content_container">
+      <div class="dest_image">
+        <img src="/starter-code/assets/destination/image-titan.png" alt="titan">
+      </div>
+      <div class="text">
+        <ul class="destination_links">
+          <li><a href="destination-moon.html">MOON</a></li>
+          <li><a href="destination-mars.html">MARS</a></li>
+          <li><a href="destination-europa.html">EUROPA</a></li>
+          <li><a class="active" href="destination-titan.html">TITAN</a></li>
+        </ul>
+
+        <div class="dest_description">
+          <h2>TITAN</h2>
+          <P>The only moon known to have a dense atmosphere other than Earth, Titan 
+            is a home away from home (just a few hundred degrees colder!). As a 
+            bonus, you get striking views of the Rings of Saturn.</P>
+        </div>
+
+        <div class="dest_info_container">
+          <div class="info">
+            <h3>AVG. DISTANCE</h3>
+            <p>1.6 BIL. KM</p>
+          </div>
+
+          <div class="info">
+            <h3>EST. TRAVEL TIME</h3>
+            <p>7 YEARS</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/script.js"></script>
+</html>
